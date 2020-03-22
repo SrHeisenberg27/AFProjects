@@ -20,7 +20,7 @@ class FirstVC: UIViewController {
     }
 
     fileprivate func configurateLabel() {
-        labelText.text = "FirstVCTest"
+        labelText.text = "FirstVCTeseeeeet"
         labelText.textColor = UIColor(hex: "#00e600e7")
         labelText.font = UIFont(name: "Helvetica", size: 41)
         labelText.textAlignment = .center
