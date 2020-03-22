@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" reuseIdentifier="SeparatorGeneralCellID" rowHeight="4" id="TRc-ak-iBF" customClass="SeparatorGeneralCell" customModule="AFProjects" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="448" height="1"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TRc-ak-iBF" id="1YV-6K-DzN">
+                <rect key="frame" x="0.0" y="0.0" width="448" height="1"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="separatorView" destination="1YV-6K-DzN" id="pdb-bA-rqS"/>
+            </connections>
+            <point key="canvasLocation" x="43.478260869565219" y="-103.125"/>
+        </tableViewCell>
+    </objects>
+</document>
