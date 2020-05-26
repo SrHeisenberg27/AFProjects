@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		92061F77244F03E8005F10CA /* PhotosMiniaturaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92061F76244F03E8005F10CA /* PhotosMiniaturaCell.swift */; };
 		92061F79244F0419005F10CA /* PhotosMiniaturaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92061F78244F0419005F10CA /* PhotosMiniaturaCell.xib */; };
+		9214F9C1247D377300231C05 /* RealmSwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214F9C0247D377300231C05 /* RealmSwiftVC.swift */; };
 		92250A9B247D2D6B005BFF51 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92687ABC247D1A57003E0F6E /* MapKit.framework */; };
 		923CC14B2469F66800537C6D /* CarrouselSectionBoxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923CC14A2469F66800537C6D /* CarrouselSectionBoxVC.swift */; };
 		923CC14E2469F79000537C6D /* CarrouselSectionBoxComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923CC14D2469F79000537C6D /* CarrouselSectionBoxComponent.swift */; };
@@ -56,12 +57,24 @@
 		92CA1EC4247AEFA0002927EE /* WhereIsMyMoneyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA1EC3247AEFA0002927EE /* WhereIsMyMoneyVC.swift */; };
 		92CA1EC7247AF022002927EE /* WhereIsMyMoney.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92CA1EC6247AF022002927EE /* WhereIsMyMoney.storyboard */; };
 		92CA1EC9247AF127002927EE /* WhereIsMyMoneyMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA1EC8247AF127002927EE /* WhereIsMyMoneyMainVC.swift */; };
+		92CF626B247D463200FF4DA2 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF626A247D463200FF4DA2 /* Cat.swift */; };
+		92CF626E247D4DC700FF4DA2 /* ToDoAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF626D247D4DC700FF4DA2 /* ToDoAppVC.swift */; };
+		92CF6270247D4DF900FF4DA2 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF626F247D4DF900FF4DA2 /* TaskModel.swift */; };
+		92CF6272247D4E8100FF4DA2 /* TaskListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF6271247D4E8100FF4DA2 /* TaskListModel.swift */; };
+		92CF6275247D53EA00FF4DA2 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF6274247D53EA00FF4DA2 /* TaskCell.swift */; };
+		92CF6277247D541100FF4DA2 /* TaskDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF6276247D541100FF4DA2 /* TaskDrawer.swift */; };
+		92CF6279247D541A00FF4DA2 /* TaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92CF6278247D541A00FF4DA2 /* TaskCell.xib */; };
+		92CF627B247D551000FF4DA2 /* TaskCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CF627A247D551000FF4DA2 /* TaskCellModel.swift */; };
 		92DF8D2A246B11D100479BA2 /* CarrouselSectionBoxFlowlayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DF8D29246B11D100479BA2 /* CarrouselSectionBoxFlowlayout.swift */; };
+		FE061936CD8B1F48CF87C592 /* Pods_AFProjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58350126D120DA28DD2FFF7E /* Pods_AFProjects.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33BDD0BFFB1477D38CEFEA82 /* Pods-AFProjects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFProjects.debug.xcconfig"; path = "Target Support Files/Pods-AFProjects/Pods-AFProjects.debug.xcconfig"; sourceTree = "<group>"; };
+		58350126D120DA28DD2FFF7E /* Pods_AFProjects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFProjects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92061F76244F03E8005F10CA /* PhotosMiniaturaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosMiniaturaCell.swift; sourceTree = "<group>"; };
 		92061F78244F0419005F10CA /* PhotosMiniaturaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosMiniaturaCell.xib; sourceTree = "<group>"; };
+		9214F9C0247D377300231C05 /* RealmSwiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmSwiftVC.swift; sourceTree = "<group>"; };
 		923CC14A2469F66800537C6D /* CarrouselSectionBoxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrouselSectionBoxVC.swift; sourceTree = "<group>"; };
 		923CC14D2469F79000537C6D /* CarrouselSectionBoxComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrouselSectionBoxComponent.swift; sourceTree = "<group>"; };
 		923CC14F2469F84E00537C6D /* CarrouselSectionBoxComponent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarrouselSectionBoxComponent.xib; sourceTree = "<group>"; };
@@ -111,7 +124,16 @@
 		92CA1EC3247AEFA0002927EE /* WhereIsMyMoneyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereIsMyMoneyVC.swift; sourceTree = "<group>"; };
 		92CA1EC6247AF022002927EE /* WhereIsMyMoney.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WhereIsMyMoney.storyboard; sourceTree = "<group>"; };
 		92CA1EC8247AF127002927EE /* WhereIsMyMoneyMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereIsMyMoneyMainVC.swift; sourceTree = "<group>"; };
+		92CF626A247D463200FF4DA2 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		92CF626D247D4DC700FF4DA2 /* ToDoAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppVC.swift; sourceTree = "<group>"; };
+		92CF626F247D4DF900FF4DA2 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		92CF6271247D4E8100FF4DA2 /* TaskListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListModel.swift; sourceTree = "<group>"; };
+		92CF6274247D53EA00FF4DA2 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		92CF6276247D541100FF4DA2 /* TaskDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDrawer.swift; sourceTree = "<group>"; };
+		92CF6278247D541A00FF4DA2 /* TaskCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskCell.xib; sourceTree = "<group>"; };
+		92CF627A247D551000FF4DA2 /* TaskCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCellModel.swift; sourceTree = "<group>"; };
 		92DF8D29246B11D100479BA2 /* CarrouselSectionBoxFlowlayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrouselSectionBoxFlowlayout.swift; sourceTree = "<group>"; };
+		A1F82D4C007F8EF5723B538C /* Pods-AFProjects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFProjects.release.xcconfig"; path = "Target Support Files/Pods-AFProjects/Pods-AFProjects.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,12 +142,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				92250A9B247D2D6B005BFF51 /* MapKit.framework in Frameworks */,
+				FE061936CD8B1F48CF87C592 /* Pods_AFProjects.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		364BC7A0F9B1DB81C820C274 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33BDD0BFFB1477D38CEFEA82 /* Pods-AFProjects.debug.xcconfig */,
+				A1F82D4C007F8EF5723B538C /* Pods-AFProjects.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		92061F6F244E3DC9005F10CA /* 01 - CBKImageViewer */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +167,15 @@
 				9269B309245588F8000737C1 /* CBKImageViewer.xib */,
 			);
 			path = "01 - CBKImageViewer";
+			sourceTree = "<group>";
+		};
+		9214F9BF247D375400231C05 /* 06 - RealmSwift */ = {
+			isa = PBXGroup;
+			children = (
+				9214F9C0247D377300231C05 /* RealmSwiftVC.swift */,
+				92CF626A247D463200FF4DA2 /* Cat.swift */,
+			);
+			path = "06 - RealmSwift";
 			sourceTree = "<group>";
 		};
 		923CC1492469F64300537C6D /* 02 - CarrouselSectionBox */ = {
@@ -203,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				92687ABC247D1A57003E0F6E /* MapKit.framework */,
+				58350126D120DA28DD2FFF7E /* Pods_AFProjects.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -326,6 +368,7 @@
 				92AF9B022426864500AA5CE4 /* AFProjects */,
 				92AF9B012426864500AA5CE4 /* Products */,
 				92687ABB247D1A57003E0F6E /* Frameworks */,
+				364BC7A0F9B1DB81C820C274 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -357,6 +400,8 @@
 				9269B30B2455892B000737C1 /* 03 - UIPageVC */,
 				92CA1EC2247AEF4E002927EE /* 04 - WhereIsMyMoney */,
 				92687AB8247D197B003E0F6E /* 05 - Mapkit */,
+				9214F9BF247D375400231C05 /* 06 - RealmSwift */,
+				92CF626C247D4D5500FF4DA2 /* 07 - ToDoApp */,
 			);
 			path = Projects;
 			sourceTree = "<group>";
@@ -448,6 +493,36 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		92CF626C247D4D5500FF4DA2 /* 07 - ToDoApp */ = {
+			isa = PBXGroup;
+			children = (
+				92CF626D247D4DC700FF4DA2 /* ToDoAppVC.swift */,
+				92CF6271247D4E8100FF4DA2 /* TaskListModel.swift */,
+				92CF6273247D53D100FF4DA2 /* Task */,
+			);
+			path = "07 - ToDoApp";
+			sourceTree = "<group>";
+		};
+		92CF6273247D53D100FF4DA2 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				92CF627C247D555300FF4DA2 /* Cell */,
+				92CF626F247D4DF900FF4DA2 /* TaskModel.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		92CF627C247D555300FF4DA2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				92CF6274247D53EA00FF4DA2 /* TaskCell.swift */,
+				92CF6276247D541100FF4DA2 /* TaskDrawer.swift */,
+				92CF6278247D541A00FF4DA2 /* TaskCell.xib */,
+				92CF627A247D551000FF4DA2 /* TaskCellModel.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		92DF8D28246B11AC00479BA2 /* CarrouselSectionBoxFlowlayout */ = {
 			isa = PBXGroup;
 			children = (
@@ -463,9 +538,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92AF9B142426864600AA5CE4 /* Build configuration list for PBXNativeTarget "AFProjects" */;
 			buildPhases = (
+				8E3DEE205BFDAFE48CBD7783 /* [CP] Check Pods Manifest.lock */,
 				92AF9AFC2426864500AA5CE4 /* Sources */,
 				92AF9AFD2426864500AA5CE4 /* Frameworks */,
 				92AF9AFE2426864500AA5CE4 /* Resources */,
+				5C43B0D412FC8E9669660FBD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -524,6 +601,7 @@
 				92AF9B2B24276C9900AA5CE4 /* SeparatorGeneralCell.xib in Resources */,
 				92CA1EC7247AF022002927EE /* WhereIsMyMoney.storyboard in Resources */,
 				9285E7FA246A7F1D0031865A /* CarrouselSectionBoxView3.xib in Resources */,
+				92CF6279247D541A00FF4DA2 /* TaskCell.xib in Resources */,
 				9285E7F6246A7F0B0031865A /* CarrouselSectionBoxView4.xib in Resources */,
 				92AF9B0B2426864500AA5CE4 /* Main.storyboard in Resources */,
 				9285E7FC246A7F240031865A /* CarrouselSectionBoxView2.xib in Resources */,
@@ -536,12 +614,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C43B0D412FC8E9669660FBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AFProjects/Pods-AFProjects-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AFProjects/Pods-AFProjects-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AFProjects/Pods-AFProjects-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E3DEE205BFDAFE48CBD7783 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AFProjects-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92AF9AFC2426864500AA5CE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				92AF9B2724276C5500AA5CE4 /* SeparatorGeneralCell.swift in Sources */,
+				92CF6272247D4E8100FF4DA2 /* TaskListModel.swift in Sources */,
+				92CF6275247D53EA00FF4DA2 /* TaskCell.swift in Sources */,
 				923CC14B2469F66800537C6D /* CarrouselSectionBoxVC.swift in Sources */,
 				92AF9B1A2426895E00AA5CE4 /* CustomGeneralCell.swift in Sources */,
 				9285E7FE246A7F2C0031865A /* CarrouselSectionBoxView2.swift in Sources */,
@@ -557,12 +679,15 @@
 				92AF9B082426864500AA5CE4 /* ViewController.swift in Sources */,
 				92AF9B3324276DC500AA5CE4 /* CustomGeneralCellDrawer.swift in Sources */,
 				92AF9B3724276F4E00AA5CE4 /* CellDrawerProtocol.swift in Sources */,
+				92CF6277247D541100FF4DA2 /* TaskDrawer.swift in Sources */,
+				92CF6270247D4DF900FF4DA2 /* TaskModel.swift in Sources */,
 				9269B3202455DF0C000737C1 /* ImageViewerComponent.swift in Sources */,
 				9269B31C2455A51A000737C1 /* ZoomController.swift in Sources */,
 				92061F77244F03E8005F10CA /* PhotosMiniaturaCell.swift in Sources */,
 				92AF9B3124276DB500AA5CE4 /* CustomGeneralCellModel.swift in Sources */,
 				9269B31E2455DEC4000737C1 /* ImageViewerExternalVC.swift in Sources */,
 				92AF9B3C24277F6C00AA5CE4 /* FullScreenContainer.swift in Sources */,
+				92CF626E247D4DC700FF4DA2 /* ToDoAppVC.swift in Sources */,
 				92DF8D2A246B11D100479BA2 /* CarrouselSectionBoxFlowlayout.swift in Sources */,
 				92AF9B042426864500AA5CE4 /* AppDelegate.swift in Sources */,
 				9269B31224559273000737C1 /* PagesController.swift in Sources */,
@@ -570,8 +695,11 @@
 				92CA1EC9247AF127002927EE /* WhereIsMyMoneyMainVC.swift in Sources */,
 				92AF9B2F24276DA600AA5CE4 /* SeparatorGeneralCellDrawer.swift in Sources */,
 				9285E800246A7F390031865A /* CarrouselSectionBoxView3.swift in Sources */,
+				92CF627B247D551000FF4DA2 /* TaskCellModel.swift in Sources */,
 				92AF9B062426864500AA5CE4 /* SceneDelegate.swift in Sources */,
+				9214F9C1247D377300231C05 /* RealmSwiftVC.swift in Sources */,
 				9285E7F2246A7ED20031865A /* CarrouselSectionBoxView1.swift in Sources */,
+				92CF626B247D463200FF4DA2 /* Cat.swift in Sources */,
 				92CA1EC4247AEFA0002927EE /* WhereIsMyMoneyVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -715,6 +843,7 @@
 		};
 		92AF9B152426864600AA5CE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33BDD0BFFB1477D38CEFEA82 /* Pods-AFProjects.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -734,6 +863,7 @@
 		};
 		92AF9B162426864600AA5CE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F82D4C007F8EF5723B538C /* Pods-AFProjects.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

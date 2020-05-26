@@ -32,8 +32,10 @@ class MapKitVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let backbutton = UIBarButtonItem(title: "Back", style: .plain, target: self, action: #selector(backAction(_:)))
+
         let currentLocationButton = UIBarButtonItem(title: "Current location", style: .plain, target: self, action: #selector(currentLocationButtonAction(_:)))
-        self.navigationItem.leftBarButtonItem = currentLocationButton
+        self.navigationItem.leftBarButtonItems = [backbutton, currentLocationButton]
 
         let searchButton = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: #selector(searchButtonAction(_:)))
         self.navigationItem.rightBarButtonItem = searchButton
@@ -173,5 +175,9 @@ class MapKitVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, 
             pointAnnotation.title = ""
             mapView.addAnnotation(pointAnnotation)
         }
+    }
+
+    @objc func backAction(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
     }
 }

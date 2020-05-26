@@ -12,12 +12,16 @@ class WhereIsMyMoneyVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
     }
 
     @IBAction func button(sender: UIButton) {
         let storyboard = UIStoryboard(name: "WhereIsMyMoney", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "WhereIsMyMoneyMainVC")
-        controller.modalPresentationStyle = .fullScreen
-        self.present(controller, animated: true, completion: nil)
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
+
+    @IBAction func back(sender: UIBarButtonItem) {
+        self.dismiss(animated: true, completion: nil)
     }
 }

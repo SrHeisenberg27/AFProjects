@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet public weak var generalTableView: UITableView!
 
-    var arrayCells = ["MapKitVC", "CarrouselSectionBoxVC", "ImageViewerExternalVC", "WhereIsMyMoneyVC"]
+    var arrayCells = ["MapKitVC", "CarrouselSectionBoxVC", "ImageViewerExternalVC", "WhereIsMyMoneyVC", "RealmSwiftVC", "ToDoAppVC"]
 
     var cells = [DrawerProtocol]()
 
@@ -24,11 +24,7 @@ class ViewController: UIViewController {
     }
 
     fileprivate func createNavBar() {
-        let screenSize: CGRect = UIScreen.main.bounds
-        let navBar = UINavigationBar(frame: CGRect(x: 0, y: 40, width: screenSize.width, height: 44))
-        let navItem = UINavigationItem(title: "General View Controller")
-        navBar.setItems([navItem], animated: true)
-        self.view.addSubview(navBar)
+        self.navigationItem.title = "AFProject"
     }
 
     fileprivate func createTableView() {
@@ -83,13 +79,21 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
                 paramSelected = indexPathRow / 2
             }
 
-            if arrayCells[paramSelected] != "MapKitVC" {
-                if let controller = storyboard?.instantiateViewController(withIdentifier: arrayCells[paramSelected]) {
-                    controller.modalPresentationStyle = .fullScreen
-                    self.present(controller, animated: true, completion: nil)
-                }
-            } else {
+            switch arrayCells[paramSelected] {
+            case "RealmSwiftVC":
+                performSegue(withIdentifier: "RealmSwiftVC", sender: cell)
+            case "MapKitVC":
                 performSegue(withIdentifier: "MapKitVC", sender: cell)
+            case "CarrouselSectionBoxVC":
+                performSegue(withIdentifier: "CarrouselSectionBoxVC", sender: cell)
+            case "ImageViewerExternalVC":
+                performSegue(withIdentifier: "ImageViewerExternalVC", sender: cell)
+            case "WhereIsMyMoneyVC":
+                performSegue(withIdentifier: "WhereIsMyMoneyVC", sender: cell)
+            case "ToDoAppVC":
+                performSegue(withIdentifier: "ToDoAppVC", sender: cell)
+            default:
+                break
             }
         }
     }
@@ -101,7 +105,6 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         default:
             return 1
         }
-
     }
 }
 
