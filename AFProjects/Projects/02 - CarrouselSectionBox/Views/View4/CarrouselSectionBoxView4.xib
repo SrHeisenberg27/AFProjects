@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CarrouselSectionBoxView4" customModule="AFProjects" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="dre-kV-Qud" id="dK1-Gs-vFR"/>
+                <outlet property="ibanLabel" destination="pU9-Ey-7oO" id="4oy-6E-f2N"/>
+                <outlet property="otherLabel" destination="yA2-Vj-9d5" id="JIT-2l-PsB"/>
+                <outlet property="titleLabel" destination="aMn-JK-1yD" id="LxT-Qq-w9q"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Iii-GA-3A2">
+            <rect key="frame" x="0.0" y="0.0" width="299" height="400"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dre-kV-Qud">
+                    <rect key="frame" x="0.0" y="0.0" width="299" height="400"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMn-JK-1yD">
+                            <rect key="frame" x="20" y="30" width="259" height="30"/>
+                            <color key="backgroundColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="0.43592144691780821" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="YaI-IP-dYa"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pU9-Ey-7oO">
+                            <rect key="frame" x="20" y="230" width="259" height="130"/>
+                            <color key="backgroundColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="0.56522902397260277" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="130" id="TL4-Ip-2hR"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <size key="shadowOffset" width="1" height="1"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yA2-Vj-9d5">
+                            <rect key="frame" x="19" y="70" width="261" height="80"/>
+                            <color key="backgroundColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="0.76088934075342463" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="5kZ-5Y-QFW"/>
+                                <constraint firstAttribute="width" constant="261" id="hdW-WG-hSO"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="aMn-JK-1yD" firstAttribute="top" secondItem="dre-kV-Qud" secondAttribute="top" constant="30" id="1r8-lg-xH7"/>
+                        <constraint firstItem="yA2-Vj-9d5" firstAttribute="centerX" secondItem="dre-kV-Qud" secondAttribute="centerX" id="43I-G3-gHb"/>
+                        <constraint firstItem="yA2-Vj-9d5" firstAttribute="bottom" secondItem="pU9-Ey-7oO" secondAttribute="top" constant="-80" id="9l9-6x-OuF"/>
+                        <constraint firstItem="aMn-JK-1yD" firstAttribute="leading" secondItem="dre-kV-Qud" secondAttribute="leading" constant="20" id="Ei2-dv-fWl"/>
+                        <constraint firstAttribute="bottom" secondItem="pU9-Ey-7oO" secondAttribute="bottom" constant="40" id="KX0-fH-rCq"/>
+                        <constraint firstItem="pU9-Ey-7oO" firstAttribute="leading" secondItem="dre-kV-Qud" secondAttribute="leading" constant="20" id="Ksp-KA-zpb"/>
+                        <constraint firstAttribute="trailing" secondItem="aMn-JK-1yD" secondAttribute="trailing" constant="20" id="oHx-0X-vrI"/>
+                        <constraint firstAttribute="trailing" secondItem="pU9-Ey-7oO" secondAttribute="trailing" constant="20" id="rWx-VT-IaC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="dre-kV-Qud" firstAttribute="bottom" secondItem="kLh-pk-dVC" secondAttribute="bottom" id="11S-SH-Uf0"/>
+                <constraint firstItem="dre-kV-Qud" firstAttribute="top" secondItem="Iii-GA-3A2" secondAttribute="topMargin" id="Hb3-eo-UQR"/>
+                <constraint firstItem="dre-kV-Qud" firstAttribute="centerX" secondItem="Iii-GA-3A2" secondAttribute="centerX" id="rue-dt-bNr"/>
+                <constraint firstItem="dre-kV-Qud" firstAttribute="leading" secondItem="kLh-pk-dVC" secondAttribute="leading" id="yjs-39-3tC"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="kLh-pk-dVC"/>
+            <point key="canvasLocation" x="-481.15942028985512" y="262.16517857142856"/>
+        </view>
+    </objects>
+</document>

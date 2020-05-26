@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CarrouselSectionBoxCollectionViewCell" customModule="AFProjects" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="CarrouselSectionBoxCollectionViewCellID" id="Ahe-Q6-pNO" customClass="CarrouselSectionBoxCollectionViewCell" customModule="AFProjects" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="301" height="143"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Bf-7W-D1d">
+                    <rect key="frame" x="0.0" y="0.0" width="301" height="143"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NH9-Gm-hcv">
+                            <rect key="frame" x="0.0" y="0.0" width="301" height="141"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NwH-MB-MfH">
+                                    <rect key="frame" x="1" y="1" width="299" height="140"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="299" id="PPr-V1-KKZ"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="301" id="8Ze-a4-lbe"/>
+                                <constraint firstItem="NwH-MB-MfH" firstAttribute="centerX" secondItem="NH9-Gm-hcv" secondAttribute="centerX" id="SkH-ls-1Rl"/>
+                                <constraint firstItem="NwH-MB-MfH" firstAttribute="top" secondItem="NH9-Gm-hcv" secondAttribute="top" constant="1" id="bvm-RP-8Od"/>
+                                <constraint firstAttribute="bottom" secondItem="NwH-MB-MfH" secondAttribute="bottom" id="zNm-N8-P6s"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="301" id="7Xf-po-Gcf"/>
+                        <constraint firstItem="NH9-Gm-hcv" firstAttribute="centerX" secondItem="7Bf-7W-D1d" secondAttribute="centerX" id="8hA-aS-3HB"/>
+                        <constraint firstItem="NH9-Gm-hcv" firstAttribute="top" secondItem="7Bf-7W-D1d" secondAttribute="top" id="FkJ-6P-J3K"/>
+                        <constraint firstAttribute="bottom" secondItem="NH9-Gm-hcv" secondAttribute="bottom" constant="2" id="aMt-fI-Izz"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="7Bf-7W-D1d" firstAttribute="centerX" secondItem="n2a-Fp-MJl" secondAttribute="centerX" id="RT7-Wq-Off"/>
+                <constraint firstItem="7Bf-7W-D1d" firstAttribute="top" secondItem="Ahe-Q6-pNO" secondAttribute="top" id="iVF-tb-twv"/>
+                <constraint firstAttribute="bottom" secondItem="7Bf-7W-D1d" secondAttribute="bottom" id="ljQ-FI-Muf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="n2a-Fp-MJl"/>
+            <connections>
+                <outlet property="contentViewCell" destination="7Bf-7W-D1d" id="lGb-6M-arA"/>
+                <outlet property="innerView" destination="NwH-MB-MfH" id="b7T-sB-qAy"/>
+                <outlet property="shadow" destination="NH9-Gm-hcv" id="hmw-HV-aAz"/>
+            </connections>
+            <point key="canvasLocation" x="61.594202898550726" y="-216.62946428571428"/>
+        </collectionReusableView>
+    </objects>
+</document>

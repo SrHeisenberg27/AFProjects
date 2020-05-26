@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PagesController" customModule="AFProjects" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="pQ9-Km-wlr" id="Opx-Ze-mMC"/>
+                <outlet property="imageView" destination="NTH-1K-ghY" id="qWe-yw-QvT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="pQ9-Km-wlr">
+            <rect key="frame" x="0.0" y="0.0" width="423" height="429"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6tO-00-uNI">
+                    <rect key="frame" x="0.0" y="44" width="423" height="351"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NTH-1K-ghY">
+                            <rect key="frame" x="0.0" y="0.0" width="423" height="351"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="NTH-1K-ghY" firstAttribute="leading" secondItem="6tO-00-uNI" secondAttribute="leading" id="Kkf-5T-LVk"/>
+                        <constraint firstAttribute="bottom" secondItem="NTH-1K-ghY" secondAttribute="bottom" id="TKn-kY-WpD"/>
+                        <constraint firstItem="NTH-1K-ghY" firstAttribute="top" secondItem="6tO-00-uNI" secondAttribute="top" id="TnH-fS-fnX"/>
+                        <constraint firstAttribute="trailing" secondItem="NTH-1K-ghY" secondAttribute="trailing" id="fjW-BI-QQ1"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="6tO-00-uNI" firstAttribute="top" secondItem="ARS-gc-fHX" secondAttribute="top" id="1CM-SF-QN4"/>
+                <constraint firstItem="6tO-00-uNI" firstAttribute="leading" secondItem="ARS-gc-fHX" secondAttribute="leading" id="GnY-69-abf"/>
+                <constraint firstItem="6tO-00-uNI" firstAttribute="trailing" secondItem="ARS-gc-fHX" secondAttribute="trailing" id="qtf-7f-3jF"/>
+                <constraint firstItem="6tO-00-uNI" firstAttribute="bottom" secondItem="ARS-gc-fHX" secondAttribute="bottom" id="rJ3-fe-zZ6"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="ARS-gc-fHX"/>
+            <point key="canvasLocation" x="215.19999999999999" y="-145.27736131934034"/>
+        </view>
+    </objects>
+</document>

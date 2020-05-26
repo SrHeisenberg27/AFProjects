@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet public weak var generalTableView: UITableView!
 
-    var arrayCells = ["FirstVC", "SecondVC", "ThirdVC"]
+    var arrayCells = ["MapKitVC", "CarrouselSectionBoxVC", "ImageViewerExternalVC", "WhereIsMyMoneyVC"]
 
     var cells = [DrawerProtocol]()
 
@@ -83,9 +83,13 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
                 paramSelected = indexPathRow / 2
             }
 
-            if let controller = storyboard?.instantiateViewController(withIdentifier: arrayCells[paramSelected]) {
-                controller.modalPresentationStyle = .fullScreen
-                self.present(controller, animated: true, completion: nil)
+            if arrayCells[paramSelected] != "MapKitVC" {
+                if let controller = storyboard?.instantiateViewController(withIdentifier: arrayCells[paramSelected]) {
+                    controller.modalPresentationStyle = .fullScreen
+                    self.present(controller, animated: true, completion: nil)
+                }
+            } else {
+                performSegue(withIdentifier: "MapKitVC", sender: cell)
             }
         }
     }
